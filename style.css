@@ -1,8 +1,16 @@
 * {
-    margin: 2px 2px;
-    padding: 2px 2px;
+    margin: 0px 0px;
+    padding: 0px 0px;
     border: none;
     text-decoration: none;
+
+
+}
+
+div, input {
+    margin: 2px 2px;
+    padding: 2px 2px;
+    border-radius: 2px;
 
 
 }
@@ -12,9 +20,9 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 98vh;
     width: auto;
-    background-color: #5d5c61;
+    background: linear-gradient(130deg, rgba(93,92,97,1) 0%, rgb(150, 182, 189) 100%);
 }
 
 #partPrice {
@@ -55,10 +63,10 @@
 }
 
 .buttons:hover {
-    background-color: #7395ae;
+    background-color: #7395aeab;
 }
 #partPrice:hover {
-    background-color: #7395ae;
+    background-color: #7395aeab;
 }
 
 #resultHour {
@@ -96,3 +104,11 @@ background-color: #b1a296;
     background-color: #b1a296;
     
     }
+
+div {
+        user-select: none; /* supported by Chrome and Opera */
+       -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+}
