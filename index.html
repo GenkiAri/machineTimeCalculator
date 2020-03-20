@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine price to time calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="appArea">
+        <input id="partPrice" placeholder="Enter price here" value="1" type="text">
+        <div id="machineButtonsArea">
+            <div class="buttons" onclick="getTimeFromPrice(85)" type="button">Fermat</div>
+            <div class="buttons" onclick="getTimeFromPrice(75)" type="button">MicroMill</div>
+            <div class="buttons" onclick="getTimeFromPrice(60)" type="button">Correa-A25</div>
+            <div class="buttons" onclick="getTimeFromPrice(60)" type="button">Correa-A20</div>
+            <div class="buttons" onclick="getTimeFromPrice(60)" type="button">SC27</div>
+            <div class="buttons" onclick="getTimeFromPrice(55)" type="button">Kar1600</div>
+            <div class="buttons" onclick="getTimeFromPrice(45)" type="button">Dip300</div>
+            <div class="buttons" onclick="getTimeFromPrice(25)" type="button">Saag</div>
+            <div class="buttons" onclick="getTimeFromPrice(35)" type="button">Frees</div>
+        </div>
+        <div id="euroHour">1h = €</div>
+        <div id="resultHour">0</div>
+        <div id="resultMinutes">0</div>
+    </div>
+    
+</body>
+
+    
+<script src="main.js"></script>
+</html>
